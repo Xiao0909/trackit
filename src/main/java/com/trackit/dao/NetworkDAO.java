@@ -23,6 +23,7 @@ public class NetworkDAO {
 
 		StringBuilder sb = new StringBuilder();
 		URL url = new URL(endpoint);
+		
 
 		// open a connection to this URL
 		HttpURLConnection urlConnection = (HttpURLConnection) url.openConnection();

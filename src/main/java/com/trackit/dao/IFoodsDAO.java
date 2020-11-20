@@ -6,5 +6,6 @@ import com.trackit.dto.Foods;
 public interface IFoodsDAO {
 
 	List<Foods> fetch(String searchFilter) throws Exception;
+	
 
 }

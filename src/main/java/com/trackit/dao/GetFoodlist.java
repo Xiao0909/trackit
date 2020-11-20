@@ -9,5 +9,6 @@ public interface GetFoodlist {
 
 	@GET("/Chriscarter17/FoodData/main/FoodTable.json")
 	Call<FoodDisplayTable> getAllFoods();
+	
 
 }

@@ -14,5 +14,6 @@ public class FoodDisplayTable {
 	public FoodList getFoodDisplayTable() {
 		return foodDisplayTable;
 	}
+	
 
 }

@@ -56,6 +56,7 @@ public class TrackItController {
 	public ModelAndView searchFoods(
 			@RequestParam(value = "searchTerm", required = false, defaultValue = "") String searchTerm) {
 		ModelAndView modelAndView = new ModelAndView();
+		
 
 		List<Foods> fetchFood = new ArrayList<Foods>();
 		try {
@@ -72,5 +73,6 @@ public class TrackItController {
 		modelAndView.addObject("foods", fetchFood);
 
 		return modelAndView;
+		
 	}
 }

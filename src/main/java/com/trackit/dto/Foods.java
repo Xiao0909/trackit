@@ -19,6 +19,7 @@ public class Foods {
 	@Expose 
 	private String calories; 
 
+	
 	//Set Constructors
 
 	public Foods() {

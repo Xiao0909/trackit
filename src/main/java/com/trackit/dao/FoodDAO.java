@@ -33,4 +33,5 @@ public class FoodDAO implements IFoodsDAO {
 		
 		return foods.getFoodDisplayTable().getFoods();
 	}
+	
 }

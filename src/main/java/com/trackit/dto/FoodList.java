@@ -11,6 +11,7 @@ public class FoodList {
 
 	public List<Foods> getFoods() {
 		return foodList;
+		
 	}
 	
 }
